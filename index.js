@@ -10,10 +10,6 @@ const persons = [
 ];
 
 const vaxTrail =(persons)=>{
-    let A = [];
-    let B = [];
-    let C = [];
-    let D = [];
 
     let vaccineBooth = {
         A:[], B:[], C:[], D:[]
@@ -34,6 +30,7 @@ const vaxTrail =(persons)=>{
         }
         
     }
+    
     console.log(vaccineBooth);
 }
 
